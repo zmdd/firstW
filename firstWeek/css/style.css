@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url(reset.css);
+body, html {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  font-family: "微软雅黑";
+  min-width: 320px; }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #F3F3F3; }
+
+.header {
+  height: .45rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+  z-index: 9; }
+  .header ul {
+    display: flex;
+    width: 55%;
+    height: .45rem;
+    line-height: .5rem;
+    text-align: center; }
+    .header ul li {
+      width: 25%;
+      height: .4rem;
+      border-bottom: 2px solid #fff;
+      margin-left: .2rem;
+      font-weight: bold;
+      font-size: .14rem; }
+    .header ul li.bg {
+      color: red;
+      border-bottom: 2px solid red; }
+  .header span {
+    width: 20%;
+    color: #A7AEB8;
+    font-size: .12rem; }
+    .header span i {
+      color: #A7AEB8; }
+
+.nav {
+  height: .4rem;
+  width: 100%;
+  z-index: 9;
+  background: #F3F3F3;
+  padding-bottom: .1rem; }
+  .nav ul {
+    width: 90%;
+    height: .25rem;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: flex;
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-top: .1rem; }
+  .nav li {
+    flex: 1;
+    line-height: .25rem;
+    text-align: center; }
+    .nav li:nth-child(2) {
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc; }
+  .nav li.colorBg {
+    color: #fff;
+    background: red; }
+
+.tit {
+  background: #fff;
+  height: .3rem;
+  line-height: .3rem;
+  z-index: 9; }
+  .tit ul {
+    display: flex;
+    align-items: center;
+    height: .3rem;
+    border-bottom: 1px  solid #eee; }
+  .tit ul li {
+    flex: 1;
+    border-right: 1px solid #eee;
+    height: .15rem;
+    line-height: .15rem;
+    text-align: center;
+    font-size: .12rem;
+    font-weight: bold; }
+    .tit ul li:nth-child(4) {
+      border: none;
+      border-left: 1px solid #eee;
+      height: .3rem;
+      line-height: .3rem; }
+    .tit ul li:nth-child(3) {
+      border: none; }
+  .tit li.color {
+    color: red; }
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  flex: 1;
+  border-top: 1px solid #eee; }
+  .main .info {
+    height: 1.15rem;
+    position: relative; }
+  .main .top {
+    height: .45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main .top b {
+      font-size: .12rem;
+      margin-left: .3rem; }
+    .main .top i {
+      font-weight: normal;
+      color: #ccc;
+      font-size: .12rem;
+      margin-right: .05rem; }
+    .main .top span {
+      font-size: .12rem;
+      margin-left: .6rem;
+      border: 1px solid green;
+      color: green;
+      border-radius: 10px;
+      padding: .02rem .02rem; }
+  .main .bot {
+    height: .7rem;
+    border-bottom: 1px solid #eee; }
+    .main .bot ul {
+      display: flex; }
+    .main .bot li {
+      display: flex;
+      flex-direction: column;
+      font-size: .12rem;
+      line-height: .3rem;
+      text-align: center;
+      border-right: 1px solid #eee; }
+    .main .bot li:nth-child(1) {
+      flex: 3; }
+    .main .bot li:nth-child(2) {
+      flex: 2; }
+    .main .bot li:nth-child(3) {
+      flex: 2; }
+    .main .bot li:nth-child(4) {
+      flex: 3;
+      border: none; }
+
+.footer {
+  height: .8rem;
+  z-index: 9;
+  background: #fff; }
+  .footer .icon {
+    height: .5rem;
+    width: 100%; }
+    .footer .icon ul {
+      display: flex; }
+    .footer .icon li {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center; }
+    .footer .icon .iconBg {
+      color: red; }
+  .footer .icons {
+    height: .3rem;
+    background: #000;
+    display: flex;
+    align-items: center; }
+    .footer .icons i {
+      flex: 1;
+      text-align: center;
+      color: #fff; }
+    .footer .icons i:nth-child(2) {
+      -webkit-transform: rotate(180deg); }
+    .footer .icons i:nth-child(5) {
+      -webkit-transform: rotate(90deg); }
+
+/*# sourceMappingURL=style.css.map */
